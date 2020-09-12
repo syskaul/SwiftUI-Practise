@@ -10,7 +10,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hey Eshaan!")
+        VStack {
+            Text("Hey Eshaan!")
+                .font(.title)
+                .fontWeight(.bold)
+                .foregroundColor(Color.blue)
+                .multilineTextAlignment(.center)
+                .lineLimit(1)
+                .padding()
+            Text("This is the subtitle")
+        }
     }
 }
 

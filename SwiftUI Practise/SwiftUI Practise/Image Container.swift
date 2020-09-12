@@ -13,9 +13,10 @@ struct Image_Container: View {
         Image("bernd-dittrich-NZZ8LrS_nh8-unsplash").resizable()
             .scaledToFill()
             .frame(width: 200.0, height: 200.0)
-            .clipShape(Rectangle())
-            .cornerRadius(/*@START_MENU_TOKEN@*/24.0/*@END_MENU_TOKEN@*/)
+            .clipShape(Circle())
+            .overlay(Circle().stroke(Color.white, lineWidth: 4))
             .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+            
             
             
             

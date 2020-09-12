@@ -10,16 +10,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             Text("Hey Eshaan!")
                 .font(.title)
                 .fontWeight(.bold)
-                .foregroundColor(Color.blue)
-                .multilineTextAlignment(.center)
-                .lineLimit(1)
-                .padding()
-            Text("This is the subtitle")
-        }
+                
+                
+                
+            HStack {
+                Text("This is the subtitle")
+                    .font(.subheadline)
+                    .fontWeight(.medium)
+                    .foregroundColor(Color.gray)
+                Spacer()
+                Text("ID1234")
+                    .font(.subheadline)
+                    .fontWeight(.medium)
+                    .foregroundColor(Color.gray)
+            }
+        }.padding(.all, 24.0)
     }
 }
 

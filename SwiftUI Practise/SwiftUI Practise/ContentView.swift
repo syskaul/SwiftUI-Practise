@@ -42,7 +42,7 @@ struct ContentView: View {
                         .foregroundColor(Color.gray)
                 }
                 
-                Text("The Death Star is a fictional mobile space station and galactic superweapon featured in the Star Wars space-opera franchise. The first version, which appears in the original 1977 film Star Wars, is stated to be more than 120 kilometers (75 mi) in diameter, and is crewed by an estimated 1.7 million military personnel and 400,000 droids.[1][2] The second Death Star, which appears in Return of the Jedi, is significantly larger at between 160 kilometres (99 mi) to 900 kilometres (560 mi) in diameter, and while it appears unfinished, is technologically more powerful than its predecessor.")
+                Text("The Death Star is a fictional mobile space station and galactic superweapopod atured in the Star Wars space-opera franchise. The first version, which appears in the original 1977 film Star Wars, is stated to be more than 120 kilometers (75 mi) in diameter, and is crewed by an estimated 1.7 million military personnel and 400,000 droids.[1][2] The second Death Star, which appears in Return of the Jedi, is significantly larger at between 160 kilometres (99 mi) to 900 kilometres (560 mi) in diameter, and while it appears unfinished, is technologically more powerful than its predecessor.")
                         
                         
                     .padding(.top, 16.0)

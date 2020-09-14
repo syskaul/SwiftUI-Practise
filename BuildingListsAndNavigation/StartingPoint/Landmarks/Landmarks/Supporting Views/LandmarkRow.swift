@@ -21,7 +21,7 @@ struct LandmarkRow: View {
             Text(landmark.name)
                 .padding(.leading, 4.0)
             Spacer()
-        }.padding(16.0)
+        }.padding([.top, .bottom, .trailing], 16.0)
         
     }
 }
